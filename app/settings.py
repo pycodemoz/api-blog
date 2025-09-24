@@ -29,7 +29,10 @@ SECRET_KEY = 'django-insecure-n0&g(316@gl8g=i89c6-ahrmqc*pmtwh@@-)g!!)mqrv3%58zq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['api-blog-w6l1.onrender.com']
+ALLOWED_HOSTS = ['api-blog-w6l1.onrender.com', 'localhost', '127.0.0.1']
+
+# Para login funcionar no Render
+CSRF_TRUSTED_ORIGINS = ['https://api-blog-w6l1.onrender.com']
 
 
 
