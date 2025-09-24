@@ -4,7 +4,7 @@ import sys
 import django
 
 # Configurar Django (substitua 'seu_projeto' pelo nome real do seu projeto)
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.settings')  # Substitua 'core' pelo nome do seu projeto
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'app.settings')  # Substitua 'core' pelo nome do seu projeto
 django.setup()
 
 def create_superuser():
